@@ -40,5 +40,5 @@
   [null, "Toggle published message preview", "toggleSendAllPreviewDropdown()"],
   [null, "Go to the file matrix", "visitFileMatrix()"],
 
-  [null, "Return to reviews dashboard", "navigate('/reviews')"]
+  ["shift+m", "Return to reviews dashboard", "navigate('/reviews')"]
 ]
