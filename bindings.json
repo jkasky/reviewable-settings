@@ -33,7 +33,7 @@
   [null, "Delete comment", "deleteDraft()"],
   [null, "Publish current comment", "sendCurrentComment()"],
 
-  [null, "Publish all comments", "sendAll()"],
+  ["mod+shift+x", "Publish all comments", "sendAll()"],
   [null, "Toggle bunny dropdown", "toggleOverlay()"],
   [null, "Toggle status checks dropdown", "toggleRevisionStatus()"],
   [null, "Toggle changes dropdown", "toggleChangesDropdown()"],
