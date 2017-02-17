@@ -1,13 +1,17 @@
 div[data-line-number]:before {
   content:attr(data-line-number);
-  position: absolute;
-  background: #000;
-  color: #fff;
+  position:absolute;
+  color: #aaa;
   padding: 3px;
-  display: none
+  font-size: x-small;
 }
-div[data-line-number]:hover {
-  display: block;
+
+.monospace.left.line.content {
+  padding-left: 2em;
+}
+
+.monospace.right.line.content {
+  padding-left: 2em;
 }
 
 /*
