@@ -1,17 +1,11 @@
 div[data-line-number]:before {
   content:attr(data-line-number);
-  position:absolute;
+  position:relative;
   color: #aaa;
   padding: 3px;
   font-size: x-small;
-}
-
-.monospace.left.line.content {
-  padding-left: 2em;
-}
-
-.monospace.right.line.content {
-  padding-left: 2em;
+  display: block;
+  width: 25px;
 }
 
 /*
