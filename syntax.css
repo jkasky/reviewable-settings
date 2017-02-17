@@ -1,3 +1,15 @@
+div[data-line-number]:before {
+  content:attr(data-line-number);
+  position: absolute;
+  background: #000;
+  color: #fff;
+  padding: 3px;
+  display: none
+}
+div[data-line-number]:hover {
+  display: block;
+}
+
 /*
 
 Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
