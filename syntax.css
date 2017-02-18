@@ -1,18 +1,23 @@
-div[data-line-number]:before {
+/* Show line numbers in diff */
+div[data-line-number]:not([data-line-number="0"]):before {
   content:attr(data-line-number);
-  position:relative;
+  position:absolute;
   color: #aaa;
   padding: 3px;
   font-size: x-small;
   display: block;
   width: 25px;
 }
+div[data-line-number]:not([data-line-number="0"]) .line.content {		
+  padding-left: 25px;	
+  width: calc(100% - 25px);
+}
+.diff.pane {
+  margin-left: 0px;
+  padding-left: 0px;
+}
 
-/*
-
-Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
-
-*/
+/* Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com> */
 
 .hljs {
   display: block;
