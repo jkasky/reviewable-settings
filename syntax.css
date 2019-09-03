@@ -9,7 +9,7 @@ div[data-line-number]:not([data-line-number="0"]):before {
   width: 25px;
 }
 div[data-line-number]:not([data-line-number="0"]) .line.content {		
-  padding-left: 25px;	
+  padding-left: 25px important!;	
   width: calc(100% - 25px);
 }
 .diff.pane {
